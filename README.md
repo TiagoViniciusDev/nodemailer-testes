@@ -15,12 +15,18 @@ EmailPassword="SUA-SENHA"
 
 #### Obs: Para evitar erros, crie uma "senha de aplicativo" no seu gmail e use-a como senha.
 
-## Passo 3: Defina o email de destino dentro de "mailOptions" no destinatário
+## Passo 3: Defina o email de destino dentro de "mailOptions" no destinatário (linha 33)
 
 ## Passo 4: Se você quizer rodar localmente instale as dependencias dotenv e nodemon
 
 ```bash
 npm install dotenv nodemon -D
+```
+
+## Passo 4: Execulte o código localmente:
+
+```bash
+npm run dev
 ```
 
 
