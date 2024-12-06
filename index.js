@@ -30,7 +30,7 @@ app.post("/sendEmail", async (req, res) => {
 
         const mailOptions = {
           from: process.env.Email, // remetente
-          to: 'tiagoc368@gmail.com', //destinatario
+          to: 'DESTINATÁRIO', //destinatario
           subject: 'Teste com HTML 2', //Assunto
           html: '<h1>Olá!</h1><p>Este é um e-mail de teste com HTML.</p>', //HTML
         };
